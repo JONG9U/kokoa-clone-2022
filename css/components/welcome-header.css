@@ -1,0 +1,19 @@
+.welcome-header {
+  margin: 90px 0px 0px 0px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Open Sans", sans-serif;
+}
+
+.welcome-header__title {
+  margin-bottom: 20px;
+  font-size: 25px;
+}
+
+.welcome-header_img {
+  padding-top: 10px;
+  padding-bottom: 0px;
+}

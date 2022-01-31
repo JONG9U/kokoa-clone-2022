@@ -1,0 +1,17 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap");
+@import "reset.css";
+@import "css/components/status-bar.css";
+@import "css/components/welcome-header.css";
+@import "css/components/login-form.css";
+@import "css/components/nav-bar.css";
+@import "css/components/screen-header.css";
+@import "css/components/friends.css";
+@import "css/components/user-component.css";
+@import "css/components/badge.css";
+@import "css/components/find.css";
+@import "css/components/icon-row.css";
+@import "css/components/more.css";
+@import "css/components/alt-screen-header.css";
+@import "css/components/settings.css";
+@import "css/components/chating.css";
+@import "css/components/no-mobile.css";

@@ -1,0 +1,55 @@
+.icon-row {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+  padding-bottom: 25px;
+}
+
+.icon-row__icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.icon-row__icon i {
+  font-size: 40px;
+}
+
+.icon-row__icon span {
+  margin-top: 15px;
+}
+
+@keyframes hidesplashscreen {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+
+#splash-screen {
+  background: rgb(3, 16, 61);
+  background: linear-gradient(
+    183deg,
+    rgba(3, 16, 61, 1) 0%,
+    rgba(9, 71, 121, 1) 50%,
+    rgba(211, 3, 185, 1) 100%
+  );
+  position: absolute;
+  height: 100vh;
+  width: 100vw;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 128px;
+  animation: hidesplashscreen 0.3s ease-in-out forwards;
+  animation-delay: 0.5s;
+}
+
+.Champions_screen {
+  width: 300px;
+  height: 300px;
+}
